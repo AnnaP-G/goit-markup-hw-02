@@ -54,6 +54,10 @@ body {
     color: var(--OCEAN, #404BBF);
 }
 
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
 .address-contacts {
     font-style: normal
 }
@@ -70,7 +74,8 @@ body {
 }
 .address-contacts-link:hover {
     color: var(--OCEAN, #404BBF)
-},
+}
+
 .address-contacts-link:focus {
     color: #404bbf;
 }
@@ -120,6 +125,10 @@ body {
 
 .team {
     background-color: #F4F4FD;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
 }
 
 .team-title {
